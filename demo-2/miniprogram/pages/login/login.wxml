@@ -1,0 +1,23 @@
+<form bindsubmit="formsubmit" bindreset="formset">
+
+	<view class="login">
+		<text class="shuoming">请输入你的登录账号</text>
+
+		<view class="form-wrap">
+			<view class="flex-wrap input-wrap">
+				<text class="label">学号</text>
+				<input value="" id="usernumber" class="account-info-input" name="unumber" />
+			</view>
+
+			<view class="flex-wrap input-wrap">
+				<text class="label">密码</text>
+				<input value="" password="password" class="account-info-input" name="upwd" />
+			</view>
+
+		</view>
+
+		<text class="shuoming">请填写信息，有问题请联系客服</text>
+		<button class="mysubmit" type="primary" form-type="submit" bindtap="btm">登录</button>
+	</view>
+
+</form>

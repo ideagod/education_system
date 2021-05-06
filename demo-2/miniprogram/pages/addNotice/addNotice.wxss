@@ -1,0 +1,18 @@
+/* miniprogram/pages/addNotice/addNotice.wxss */
+
+.title {
+  padding: 15rpx;
+  font-size: 35rpx;
+  font-weight: 600;
+  margin-left: 10rpx;
+}
+
+
+form input{
+  padding: 10rpx;
+  margin: 30rpx;
+  border: 1px solid #ddd;
+}
+button{
+  margin-top: 40rpx;
+}

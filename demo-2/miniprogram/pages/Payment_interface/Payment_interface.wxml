@@ -1,0 +1,5 @@
+<!--pages/Payment_interface/Payment_interface.wxml-->
+<view class="outer">
+  <text class="title">付款码</text>
+    <image src="/images/pay.png" class="image"></image>
+</view>

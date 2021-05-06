@@ -1,0 +1,15 @@
+<!--pages/delSubject/delSubject.wxml-->
+<view class="title">请选择要删除的课程 ：</view>
+<!--           show   -->
+<view class="box" wx:for="{{detail}}" wx:key="key">
+  <view class="list">
+    <view class="left "> {{item.className}} </view>
+
+  </view>
+  <view class="list">
+    <view class="left fontSize">老师 : {{item.teacher}}</view>
+    <view class="right" bindtap="delSubBtn" data-detail="{{item}}">删除</view>
+  </view>
+
+
+</view>

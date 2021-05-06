@@ -1,0 +1,19 @@
+/* pages/getdata/getdata.wxss */
+.title{
+font-weight: 700;
+font-size: 45rpx;
+margin-left:17rpx;
+padding: 10rpx; 
+}
+.setRadio{
+  text-align: left;
+  padding: 10rpx;
+  margin-left:15rpx; 
+}
+button{
+  margin: 20rpx;
+  padding: 20rpx;
+  width: 100%;
+}
+
+

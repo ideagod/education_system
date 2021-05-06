@@ -1,0 +1,39 @@
+<!--pages/subject/subject.wxml--> 
+<view class='top'>
+  <!-- 显示输出周几 -->
+  <view wx:for="{{date}}"  wx:key="key" class='top-text'>{{item.week}}</view>
+</view>
+<view class='top'>
+  <!-- 显示输出日期 -->
+  <view wx:for="{{date}}"   wx:key="key" class='top-text'>{{item.day}}</view>
+</view>
+
+  <view class='back'>
+    <view class='left-text'>
+      <!-- 显示输出第几节课 -->
+      <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}"  wx:key="key" class='left'>{{item}}</view>
+    </view>
+    <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}"  wx:key="key">
+      <view class="bottomView" style=" margin-top:{{(index+1)*100}}rpx;">
+      </view>
+    </view>
+    <!--课表-->
+    <view wx:for="{{detail}}"  wx:key="key">
+      <view class="flex-item kcb-item" id='0' data-statu="open" data-index="{{index}}" style="margin-left:{{(item.weekday-1)*140+10}}rpx; margin-top:{{(item.classTime-1)*100+7}}rpx; height:{{item.classLength*95}}rpx; background-color:{{colorArrays[index%4]}}">
+        <!-- height:课程的高度  bindtap="showCardView" -->
+        <!-- weekday代表星期几上课，classTime是上课时间，classLength上课长度，className课程名字,position课程位置,weekTime课程周数，dayTime课程时间-->
+        <view class="smalltext" bindtap="showModal" data-detail="{{item}}">{{item.className}}
+          <view class="smallertext">{{item.position}}</view>
+
+        </view>
+      </view>
+    </view>
+    <view class="modal-mask" bindtap="hideModal" wx:if="{{showModal}}"></view>
+
+    <view class="modal-dialog" wx:if="{{showModal}}">
+      <view class='view-data'>{{_className}}/{{_teacher}}/{{_position}}/{{_weekTime}}/{{_dayTime}}</view>
+        
+    </view>
+
+
+  </view>

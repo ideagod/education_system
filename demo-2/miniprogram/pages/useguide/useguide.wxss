@@ -1,0 +1,19 @@
+/* miniprogram/pages/useguide/useguide.wxss */
+page{
+height: 100%;
+width: 100%;
+background-color: cornsilk;
+}
+.title{
+  padding: 10rpx;
+  margin-left: 40rpx;
+  font-weight: 700;
+  font-size: 40rpx;
+}
+.textBox{
+  padding: 20rpx;
+
+  font-size: 35rpx;
+  font-weight: 400;
+  
+}

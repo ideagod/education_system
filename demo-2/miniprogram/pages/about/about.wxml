@@ -1,0 +1,27 @@
+<!--miniprogram/pages/about/about.wxml-->
+
+<image class="titleImg" src="/images/image3.jpg"></image>
+<view class="title">联系我们</view>
+<view class="linkBoxSize">
+	<image class="linkBox" src="/images/link.jpg"></image>
+</view>
+<view class="title">更新日志</view>
+<view class="texts">改善 查询成绩</view>
+<view class="texts">历史更新记录请查阅 https://github.com</view>
+<view class="title">赞赏</view>
+<view class="texts">请我喝杯奶茶吗？：）</view>
+<view class='container'>
+
+	<view class="link"  bindtap='buttonTap' type='primary'>好呀！</view>
+
+  <modal  hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+    <view>
+      <image class="image" src="/images/link.jpg" mode='aspectFill'></image>
+    </view>
+    
+  </modal>
+
+</view>
+
+<view class="title">交流</view>
+<view class="texts">欢迎加入QQ群 123456789</view>

@@ -1,0 +1,14 @@
+<!--pages/notice/notice.wxml-->
+<view class="title">通知如下：</view>
+<view class="box" wx:for="{{detail}}" wx:key="key">
+  <view class="list">
+    <view class="left "> {{item.notice}} </view>
+
+  </view>
+  <view class="list">
+    <view class="left fontSize">通知</view>
+    <view class="right" data-detail="{{item}}"></view>
+  </view>
+
+
+</view>

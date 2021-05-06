@@ -1,0 +1,23 @@
+<!--pages/card/card.wxml-->
+<view class="outer">
+	<view class="nave">
+		<image src="/images/title.png" class="image"></image>
+		<text class="title">{{school}}</text>
+	</view>
+	<view class="nave1">
+		<text class="number">学号：{{number}}</text>
+		<text class="name">姓名：{{name}}</text>
+		<text class="profession">专业：{{profession}}</text>
+		<text class="class">班级：{{class}}</text>
+	</view>
+</view>
+
+<view class="nave2">
+	<navigator url="../Payment_interface/Payment_interface">
+		<text class="pay">去付款</text>
+	</navigator>
+	<text class="fengexian"> | </text>
+	<navigator url="../Entrance_guard/Entrance_guard">
+		<text class="swip">刷门禁</text>
+	</navigator>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/health/health.wxml-->
+<view class="outer">
+<view class="title"> 每日健康小调查 </view>
+
+<view class="message">
+	<view class="mingzi">姓名：</view>
+	<input class="name" placeholder="请输入姓名..." bindinput="name_txVal"></input>
+	<view class="dianhua">联系电话：</view>
+	<input class="tel" placeholder="请输入手机号码..." bindinput="tel_txVal"></input>
+</view>
+
+<view class="topic">1.关于新冠肺炎，你当前的情况是？（单/多选）</view>
+<view class='options'>
+	<checkbox-group bindchange="checkboxgroupBindchange" >
+		<view class="options">
+			<checkbox value="无下列情况，身体健康" class="green">无下列情况，身体健康 ❥ </checkbox>
+			<checkbox value="最近15日内去过湖北" class="option">最近15日内去过湖北</checkbox>
+			<checkbox value="最近15日内接触过新冠肺炎感染者">最近15日内接触过新冠肺炎感染者</checkbox>
+			<checkbox value="发烧（37.3度以上）、咳嗽、乏力、呼吸困难" class="option">发烧（37.3度以上）、咳嗽、乏力、呼吸困难 </checkbox>
+			<checkbox value="医学隔离！">医学隔离！</checkbox>
+			<checkbox value="疑是病例！" class="option">疑是病例！</checkbox>
+			<checkbox value="确诊病例！">确诊病例！</checkbox>
+		</view>
+	</checkbox-group>
+</view>
+
+<view class="topic">2.你的当前位置 ？</view>
+<input class="input" placeholder="请输入当前位置..." bindinput="address_txVal"></input>
+<view class="submitbtn" type="primary" bindtap="btm">确认提交</view>
+</view>

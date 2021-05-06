@@ -1,0 +1,17 @@
+/* pages/addSubject/addSubject.wxss */
+.title{
+  font-size: 35rpx;
+  padding: 10rpx;
+  font-weight: 700;
+
+}
+input{
+  padding: 10rpx;
+  font-size: 35rpx;
+  background-color:lightgray;
+  border-radius: 4%;
+  margin: 5rpx;
+ 
+  
+  
+}

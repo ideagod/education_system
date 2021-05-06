@@ -1,0 +1,87 @@
+<view class="outer">
+	<view class="header">
+		<image src="/images/title.jpg" class="crest"></image>
+		<text class="title" space="nbsp">吉林大学(珠海学院)</text>
+	</view>
+	<!-- <navigator url="/pages/login/login" class="login-outer">
+    <button class="login" size="mini">登录</button>
+  </navigator> -->
+</view>
+
+<swiper class="banner" indicator-dots autoplay interval="3000">
+	<swiper-item>
+		<image src="/images/image2.jpg">
+		</image>
+	</swiper-item>
+
+	<swiper-item>
+		<image src="/images/image1.jpg">
+		</image>
+	</swiper-item>
+
+	<swiper-item>
+		<image src="/images/image3.jpg">
+		</image>
+	</swiper-item>
+
+	<swiper-item>
+		<image src="/images/image4.jpg">
+		</image>
+	</swiper-item>
+</swiper>
+
+<view class="nave">
+	<navigator url="/pages/subject/subject" open-type="switchTab">
+		<view class="btn1">
+			<image src="/images/class .png" class="course"></image>
+			<text>课程表</text>
+		</view>
+	</navigator>
+
+	<navigator url="/pages/course_information/course_information">
+		<view class="btn1">
+			<image src="/images/class.png" class="course"></image>
+			<text>课程信息</text>
+		</view>
+	</navigator>
+
+	<navigator open-type="navigate" url="../getdata/getdata">
+		<view class="btn1">
+			<image src="/images/grade (1).png" class="course"></image>
+			<text>成绩</text>
+		</view>
+	</navigator>
+</view>
+
+<view class="nave1">
+	<navigator open-type="navigate" url="../health/health">
+		<view class="btn2">
+			<image src="/images/health.png" class="course"></image>
+			<text>健康打卡</text>
+		</view>
+	</navigator>
+
+	<navigator open-type="navigate" url="../card/card">
+		<view class="btn2">
+			<image src="/images/card.png" class="course"></image>
+			<text>校园卡</text>
+		</view>
+	</navigator>
+
+	<navigator open-type="navigate" url="../notice/notice">
+		<view class="btn2">
+			<image src="/images/notice.png" class="course"></image>
+			<text> 通知 </text>
+		</view>
+	</navigator>
+</view>
+
+
+
+
+<!-- <navigator open-type="navigate" url="../canvans/canvans">
+		<view class="btn1">
+			<image src="/images/grade.jpg" class="course"></image>
+			<text>成绩</text>
+		</view>
+	</navigator> -->

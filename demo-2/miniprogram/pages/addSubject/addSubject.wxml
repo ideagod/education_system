@@ -1,0 +1,14 @@
+<!--pages/addSubject/addSubject.wxml-->
+<view class="title">请填写课程信息</view>
+<form bindsubmit="submit">
+<input name="weekday" placeholder="周几（数字）"></input>
+<input name="classTime" placeholder="第几节课（数字）"></input>
+<input name="className" placeholder="请输入课程名称"></input>
+<input name="position" placeholder="教室位置"></input>
+<input name="teacher" placeholder="教师姓名"></input>
+
+
+<navigator url="/pages/subject/subject" open-type="switchTab">
+<button form-type="submit">提交</button>
+</navigator>
+</form>

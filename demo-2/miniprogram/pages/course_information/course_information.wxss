@@ -1,0 +1,76 @@
+/* miniprogram/pages/course_information/course_information.wxss */
+.main{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.inputview{
+  display: flex;
+  margin: 40rpx auto;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  width: 80%;
+  height: 70rpx;
+  border: 1px solid #aeaeae;
+  border-radius: 40rpx;
+  padding-left: 20rpx;
+  font-size: 28rpx;
+}
+.submitbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30rpx auto;
+  width: 300rpx;
+  height: 60rpx;
+  background-color:rgb(7, 193, 96);
+  color: white;
+  border: 1px solid #aeaeae;
+  border-radius: 10rpx;
+  box-shadow: 4rpx 4rpx 8rpx #aeaeae;
+}
+.b-hover{
+  box-shadow: 4rpx 4rpx 8rpx #aeaeae inset;
+}
+.name_preview{
+  display: flex;
+  padding-left: 20rpx;
+  /* margin: 10rpx auto; */
+  width: 90%;
+  background-color: white;
+  font-size: 28rpx;
+  height: 60rpx;
+}
+.credits_preview{
+  display: flex;
+  /* margin: 30rpx auto; */
+  width: 90%;
+  background-color:white;
+  font-size: 28prx;
+}
+.test_preview{
+  display: flex;
+  /* margin: 30rpx auto; */
+  width: 90%;
+  background-color:white;
+  font-size: 28rpx;
+}
+.information_preview{
+  display: flex;
+  /* margin: 30rpx auto; */
+  width: 90%;
+  background-color:white;
+  font-size: 28rpx;
+  padding-left: 20rpx;
+  line-height: 50rpx;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20rpx;
+}

@@ -1,0 +1,101 @@
+/* pages/card/card.wxss */
+.outer {
+  height: 500rpx;
+  display: flex;
+  margin: 20rpx;
+  background-image: url('http://ww2.sinaimg.cn/large/bc9cb7c6gw1e51tunsw8dj20f00780u6.jpg');
+  border-radius: 50rpx;
+  flex-direction: column;
+}
+
+.nave {
+  width: auto;
+  height: 100rpx;
+  display: flex;
+}
+
+.image {
+  width: 120rpx;
+  height: 80rpx;
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+
+.title {
+  display: flex;
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+  font-weight: 700;
+  color: white;
+  font-size: 30rpx;
+}
+
+.nave1 {
+  display: flex;
+  flex-direction: column;
+  margin: 50rpx;
+}
+
+.number {
+  width: auto;
+  height: 50rpx;
+  color: white;
+  font-style: normal;
+  font-size: 30rpx;
+  margin: 8px;
+}
+
+.name {
+  width: auto;
+  height: 50rpx;
+  color: white;
+  font-style: normal;
+  font-size: 30rpx;
+  margin: 8px;
+
+}
+
+.profession {
+  width: auto;
+  height: 50rpx;
+  color: white;
+  font-style: normal;
+  font-size: 30rpx;
+  margin: 8px;
+
+}
+
+.class {
+  width: auto;
+  height: 50rpx;
+  color: white;
+  font-style: normal;
+  font-size: 30rpx;
+  margin: 8px;
+}
+
+.nave2 {
+  display: flex;
+  flex-direction: row;
+  border-radius: 50rpx;
+  border: 1rpx solid black;
+  margin: 80rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.fengexian {
+  margin-left: 80rpx;
+  margin-right: 80rpx;
+}
+
+.pay {
+  display: block;
+  text-align: center;
+  margin-left: 100rpx;
+}
+
+.swip {
+  text-align: center;
+}

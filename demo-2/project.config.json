@@ -1,0 +1,183 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wx0df3d3cd5b57f258",
+	"projectname": "demo-2",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"compileType": "miniprogram",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/getdata/getdata",
+					"pathName": "pages/getdata/getdata",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/delSubject/delSubject",
+					"pathName": "pages/delSubject/delSubject",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subject/subject",
+					"pathName": "pages/subject/subject",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addSubject/addSubject",
+					"pathName": "pages/addSubject/addSubject",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/testSC/testSC",
+					"pathName": "pages/testSC/testSC",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/useguide/useguide",
+					"pathName": "pages/useguide/useguide",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/about/about",
+					"pathName": "pages/about/about",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/getdata/getdata",
+					"pathName": "pages/getdata/getdata",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addNotice/addNotice",
+					"pathName": "pages/addNotice/addNotice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addNotice/addNotice",
+					"pathName": "pages/addNotice/addNotice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/delNotice/delNotice",
+					"pathName": "pages/delNotice/delNotice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addNotice/addNotice",
+					"pathName": "pages/addNotice/addNotice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/delNotice/delNotice",
+					"pathName": "pages/delNotice/delNotice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addNotice/addNotice",
+					"pathName": "pages/addNotice/addNotice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/delNotice/delNotice",
+					"pathName": "pages/delNotice/delNotice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/notice/notice",
+					"pathName": "pages/notice/notice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/notice/notice",
+					"pathName": "pages/adminPage/adminPage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/get/get",
+					"pathName": "pages/get/get",
+					"scene": null
+				}
+			]
+		}
+	}
+}

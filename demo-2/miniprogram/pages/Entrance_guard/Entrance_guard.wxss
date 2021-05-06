@@ -1,0 +1,30 @@
+/* pages/Entrance_guard/Entrance_guard.wxss */
+.outer {
+  height: 2000rpx;
+  background-color: rgb(25, 130, 211);
+}
+.title {
+  border: solid 1rpx  rgb(25, 130, 211);
+  background-color:  rgb(25, 130, 211);
+  text-align: center;
+  color: aliceblue;
+  display: inherit;
+  padding: 50rpx;
+  font-size: 40rpx;
+}
+.image {
+  display: inline-block;
+  margin-left: 50px;
+  height: 700rpx;
+  margin-top: 10rpx;
+}
+.beizhu{
+  border: solid 1rpx  rgb(25, 130, 211);
+  background-color:  rgb(25, 130, 211);
+  text-align: center;
+  color: aliceblue;
+  display: inherit;
+  padding: 50rpx;
+  padding-top: 100rpx;
+  font-size:30rpx;
+}

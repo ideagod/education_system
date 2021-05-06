@@ -1,0 +1,19 @@
+/* pages/Payment_interface/Payment_interface.wxss */
+.image {
+  width: 750rpx;
+  height: 800rpx;
+}
+
+.title {
+  border: solid 1rpx rgb(45, 172, 103);
+  background-color: rgb(45, 172, 103);
+  text-align: center;
+  color: aliceblue;
+  display: inherit;
+  padding: 50rpx;
+  font-size: 40rpx;
+}
+.outer{
+  background-color:rgb(45, 172, 103); 
+  height: 2000rpx;
+}

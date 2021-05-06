@@ -1,0 +1,7 @@
+<!--miniprogram/pages/addNotice/addNotice.wxml-->
+
+<text class="title">添加通知：</text>
+<form bindsubmit="submit">
+<input class="addContent"  placeholder="请输入通知"  name="notice"></input>
+<button form-type="submit">提交</button>
+</form>

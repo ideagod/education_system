@@ -1,0 +1,15 @@
+<!--miniprogram/pages/delNotice/delNotice.wxml-->
+<view class="title">请选择要删除的通知 ：</view>
+<!--    show   -->
+<view class="box" wx:for="{{detail}}" wx:key="key">
+  <view class="list">
+    <view class="left "> {{item.notice}} </view>
+
+  </view>
+  <view class="list">
+    <view class="left fontSize">通知</view>
+    <view class="right" bindtap="delNoticeBtn" data-detail="{{item}}">删除</view>
+  </view>
+
+
+</view>

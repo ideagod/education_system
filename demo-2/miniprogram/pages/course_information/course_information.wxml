@@ -1,0 +1,14 @@
+<!--miniprogram/pages/course_information/course_information.wxml-->
+<view class="main">
+	<view class="inputview">
+		<input class="input" bindinput="txVal" placeholder="请输入课程名称"></input>
+	</view>
+	<view class="submitbtn" type="primary" hover-class="b-hover" bindtap="submit">查询</view>
+	<view class="list">
+		<view class="name_preview">课程名称：{{course_name}}</view>
+		<view class="name_preview">{{credits}}</view>
+		<view class="name_preview">{{test_form}}</view>
+		<view class="information_preview">{{course_information}}</view>
+	</view>
+	
+</view>

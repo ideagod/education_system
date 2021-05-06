@@ -1,0 +1,7 @@
+<!--miniprogram/pages/adminPage/adminPage.wxml-->
+<view class="title">管理员，欢迎您！</view>
+<view class="adminBtn">
+<button ><navigator open-type="navigate" url="../addNotice/addNotice">添加通知</navigator></button>
+
+<button><navigator open-type="navigate" url="../delNotice/delNotice">删除通知</navigator></button>
+</view>

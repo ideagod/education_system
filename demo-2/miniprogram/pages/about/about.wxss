@@ -1,0 +1,40 @@
+/* miniprogram/pages/about/about.wxss */
+.titleImg {
+  width: 100%;
+  height: 350rpx;
+}
+
+.title {
+  padding: 20rpx;
+  border-bottom: 1rpx solid lightgray;
+  font-size: 35rpx;
+  font-weight: 700;
+}
+.texts{
+  padding: 30rpx;
+  font-size: 500;
+}
+.link{
+  margin-left: 640rpx;
+  color: blue;
+
+}
+
+.linkBoxSize {
+
+  display: flex;
+  justify-content: center;
+}
+
+.linkBox {
+  width: 300rpx;
+  height: 300rpx;
+}
+.image {
+  width: 350rpx;
+  height: 350rpx;
+  margin: 10rpx 10rpx 10rpx 10rpx;
+
+
+ 
+}

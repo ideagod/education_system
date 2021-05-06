@@ -1,0 +1,17 @@
+<wxs module="filter" src="../../wxs/numbertofix.wxs"></wxs>
+<view class="title" >{{detailterm}}♡</view>
+
+<!--           show   -->
+<view class="box" wx:for="{{detail}}" wx:key="key">
+  <view class="list">
+    <view class="left "> {{item.subject}} </view>
+    <view class="right">{{item.result}}</view>
+   
+  </view>
+  <view class="list">
+    <view class="left fontSize">课程类型 : {{item.type}}</view>
+<view  class="right fontSize" wx:if="{{item.result<60}}">绩点 : 0.0</view>
+<view  class="right fontSize" wx:elif="{{item.result<90}}">绩点 : {{filter.numberToFix(1.0+(item.result-60.0)*0.1)}}</view>
+<view  class="right fontSize" wx:else="{{item.result>90}}">绩点 : 4.0</view>
+  </view >
+</view>

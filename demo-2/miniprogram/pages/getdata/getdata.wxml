@@ -1,0 +1,12 @@
+<view class="title">请选择学期：</view>
+<form bindsubmit="submit">
+  <radio-group name="getTerm" bindchange="onchange">
+    <view class="setRadio">
+      <radio value="大三第一学期">大三第一学期</radio>
+    </view>
+    <view class="setRadio">
+      <radio value="大三第二学期">大三第二学期</radio>
+    </view>
+  </radio-group>
+  <button form-type="submit">提交</button>
+</form>

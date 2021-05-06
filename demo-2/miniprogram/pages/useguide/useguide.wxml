@@ -1,0 +1,10 @@
+<!--miniprogram/pages/useguide/useguide.wxml-->
+<view class="title">使用指南</view>
+<view class="textBox">
+	<text   decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;教务管理系统和校园卡的用户体系不同，二者账号一致，但密码不同。所以，使用不同的功能时需要绑定不同的用户体系。
+      </text>
+</view>
+<view class="textBox">
+	<text   decode="{{true}}" space="{{true}}">&nbsp; &nbsp;&nbsp;课程信息的时间是我个人统计的，并不百分百准确，如果你遇到了有误的课程，衷心等待你的反馈。
+      </text>
+</view>

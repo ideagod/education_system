@@ -1,0 +1,7 @@
+<!--pages/Entrance_guard/Entrance_guard.wxml-->
+<view class="outer">
+  <view class="title"> 校园码 </view>
+	<!-- <view class="image">{{image}}</view> -->
+  <image class="image" src="{{image}}"></image>
+  <text class="beizhu">校园码可用于刷门禁、签到、图书馆借阅等</text>
+</view>

@@ -1,0 +1,28 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+	<view class="userinfo">
+		<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+		<block wx:else>
+			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+			<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+		</block>
+	</view>
+	<view class="usermotto">
+		<text class="user-motto">{{motto}}</text>
+	</view>
+</view>
+<view class="list">
+	<view class="useguide" type="primary" bindtap="click">自定义课程表</view>
+
+	<navigator url="../useguide/useguide">
+		<view class="useguide">使用指南</view>
+	</navigator>
+	<navigator url="../about/about">
+		<view class="useguide">关于</view>
+	</navigator>
+
+	<navigator url="../login/login">
+		<!--<button type="primary" bindtap="btnlogout" class="logout1">注销</button> -->
+		<view class="useguide" bindtap="btnlogout">注销</view>
+	</navigator>
+</view>

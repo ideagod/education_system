@@ -1,0 +1,90 @@
+.title {
+  font-style: normal;
+  display: inline-block;
+  font-size: 28rpx;
+}
+.outer{
+  display: flex;
+  height: 80rpx;
+  align-items: center;
+}
+.login{
+  display: inline-block;
+  color:black;
+}
+
+.crest {
+  width: 120rpx;
+  height: 80rpx;
+}
+
+.banner {
+  border: 1px solid rgb(245, 237, 238);
+  width: 100%;
+  height: 350rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+
+.timetable {
+  width: 50px;
+  height: 50px;
+}
+
+.course {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.grades {
+  width: 50px;
+  height: 50px;
+}
+
+.btn1 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80rpx;
+  margin-right: 60rpx;
+ 
+}
+.header{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80rpx;
+  display: flex;
+  }
+
+.nave{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -50px;
+  }
+
+.nave1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .btn2{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80rpx;
+    margin-right: 60rpx;
+   
+  }
